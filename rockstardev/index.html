@@ -4,20 +4,19 @@
   <head>
     <meta charset="utf-8">
 
-    <title>De desarrollador a emprendedor</title>
-
-
+    <title>WTF is a rockstar developer?</title>
 
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="../css/reset.css">
+    <!-- Da reveal css -->
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/pygment_trac.css">
     <link rel="stylesheet" href="../css/print.css" type="text/css" media="print">
-
     <link rel="stylesheet" href="../lib/zenburn.css">
+    <link rel="stylesheet" href="../css/stylesheet.css">
   </head>
 
   <body>
@@ -31,9 +30,9 @@
       <div class="slides">
         <section>
           <br><br>
-          <h1>De Desarrollador a Emprendedor</h1>
+          <h1>Rockstar Developer</h1>
           <br>
-          <a href="http://buriti.ca/cpco/devprendimiento/">http://cpco.buriti.ca/devprendimiento/</a>
+          <p>No es suficiente con saber programar</p>
           <script>
             // Delicously hacky. Look away.
             if( navigator.userAgent.match( /(iPhone|iPad|iPod|Android)/i ) ) document.write( '<p style="color: rgba(0,0,0,0.3); text-shadow: none;">('+'Tap to navigate'+')</p>' );
@@ -41,22 +40,8 @@
         </section>
 
         <section>
-          <pre><code contenteditable style="font-size: 22px; margin-top: 20px; line-height: 1.5em;">
-  var buritica = {
-    name: 'Juan Pablo Buriticá',
-    twitter: '@buritica',
-    email: 'buritica@gmail.com',
-    origin: 'Bogotá, Colombia',
-    location: 'New York',
-    title: 'Lead Frontend Engineer',
-    company: 'Onswipe',
-    weaponOfChoice: 'JavaScript',
-    founded: 'Panelfly',
-    hobbies:[
-      'BogotaConf', 'pulsosocial', 'socialatom',
-      'tech &amp; product advisor', 'LatAm Tech'
-    ]
-  }
+          <pre><code>
+            var = asdasdasd;
           </code></pre>
         </section>
 
@@ -73,7 +58,7 @@
           <br>
           <p>Razones cliché</p><br>
           <ul>
-            <li class="fragment">Ser mi propio jefe</li>
+            <li class="fragment"><a href="#">Ser mi propio jefe</a></li>
             <li class="fragment">Tener mucho dinero</li>
             <li class="fragment">Hacer las cosas a mi manera</li>
           </ul>
@@ -91,54 +76,6 @@
               <li class="fragment">Solucionar problemas interesantes</li>
             </ul>
         </section>
-
-        <section>
-          <h2>Ventajas de ser un desarrollador</h2>
-          <br>
-          <img src="../img/devprendimiento/programming.gif" alt="">
-        </section>
-
-        <section>
-          <h2>Ventajas de ser un desarollador</h2>
-          <br>
-            <ul>
-              <li class="fragment">Hacker Spirit</li>
-              <li class="fragment">Conocimiento tecnológico</li>
-              <li class="fragment">Trabajo con significado</li>
-              <li class="fragment">No está viciado por limitaciones de negocio</li>
-              <li class="fragment">Friccion de entrada disminuida</li>
-              <li class="fragment">Garaje + PC + Código + Cloud Computing = Producto Real </li>
-            </ul>
-        </section>
-
-        <section data-state="alert">
-          <h2>Como Emprender</h2>
-          <br>
-          <img src="../img/devprendimiento/dog_science.jpg" alt="">
-        </section>
-
-        <section data-state="yellow">
-          <img src="../img/devprendimiento/cat.png" alt="">
-        </section>
-
-        <section>
-          <h2>La idea</h2>
-          <br>
-            <ul>
-              <li class="fragment">Solucionar un problema...</li>
-              <li class="fragment">... por el que la gente pague</li>
-              <li class="fragment">"Scratch your own itch"</li>
-              <li class="fragment">Interrumpir una industria</li>
-              <li class="fragment">Observar problemas existentes</li>
-              <li class="fragment">Hacer algo más fácil de usar</li>
-              <li class="fragment">Servicios cheveres - mala idea</li>
-            </ul>
-        </section>
-
-        <section data-state="alone">
-          <img src="../img/devprendimiento/alone.png" alt="">
-        </section>
-
         <section>
           <h2>Socias/os</h2>
           <br>
@@ -150,14 +87,6 @@
               <li class="fragment">Pasión</li>
               <li class="fragment">Hambre</li>
             </ul>
-        </section>
-
-        <section data-state="yellow">
-          <img src="../img/devprendimiento/courage.png" alt="">
-        </section>
-
-        <section data-state="alert">
-          <img src="../img/devprendimiento/valuation.png" alt="">
         </section>
 
         <section>
@@ -175,10 +104,6 @@
                 </ul>
               </li>
             </ul>
-        </section>
-
-        <section data-state="yuno">
-          <img src="../img/devprendimiento/yuno.png" alt="">
         </section>
 
         <section>
@@ -212,11 +137,6 @@
             </ul>
         </section>
 
-        <section data-state="yuno">
-          <img src="../img/devprendimiento/success.png" alt="">
-        </section>
-
-
         <section>
           <br>
           <h1>Fin</h1>
@@ -246,6 +166,18 @@
     <script src="../lib/classList.js"></script>
 
     <script src="../js/reveal.js"></script>
+
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-123-12']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
 
     <script>
       // Parse the query string into a key/value object
