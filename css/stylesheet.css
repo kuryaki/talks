@@ -1,8 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background: #151515 url("../img/bkg.png") 0 0;
-  color: #999;
+  background: #151515 url("../images/bkg.png") 0 0;
+  color: #eaeaea;
   font: 16px;
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
@@ -134,9 +134,9 @@ ul li {
 }
 
 ul li:before {
-  content: "->";
+  content: ">>";
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  font-size: 30px;
+  font-size: 13px;
   color: #b5e853;
   margin-left: -37px;
   margin-right: 21px;
@@ -150,25 +150,17 @@ blockquote {
 }
 
 pre {
-  background-color: transparent;
-}
-
-pre {
+  background: rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   padding: 10px;
   font-size: 14px;
-  color: #999;
+  color: #b5e853;
   border-radius: 2px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   text-wrap: normal;
   overflow: auto;
   overflow-y: hidden;
-}
-
-pre code {
-  padding: 0;
-  color: inherit;
-  border: 0;
 }
 
 table {
